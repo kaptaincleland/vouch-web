@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon links-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Vouch Initiative International</title>
+    <!--css and fontawsome-->
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/b75ac65de5.js" crossorigin="anonymous"></script>
+</head>                       
+<body>
+<div id="preloader"></div>
+<div id="about-header">
+    <div class="container">
+        <nav>
+            <a href="index.html"><img class="nav-logo" src="images/vl.png" alt="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="how we work.html">How We Work</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i> <!-- Use "fas" for Solid icons -->
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i> <!-- Use "fas" for Solid icons -->
+        </nav>     
+    </div> 
+</div>
 <div class="tab-title">
     <p class="tab-links active-link" onclick="opentab('Mission')">Mission</p>
     <p class="tab-links" onclick="opentab('Vision')">Vision</p>
@@ -9,3 +43,8 @@
     
  </div> 
 </div>
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
