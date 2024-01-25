@@ -445,6 +445,40 @@ nav .fas {
         font-size: 14px;
     }
 }
+/*About-us*/
+.who-we-are {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-3-col-1 {
+    flex: 1;
+}
+
+.about-3-col-1 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-3-col-2 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Optional: Adjust styles for better readability */
+.about-3-col-2 h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #FFC800;
+}
+
+.about-3-col-2 .sub-title-3 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 
 /*scrollbar*/
 ::-webkit-scrollbar {
