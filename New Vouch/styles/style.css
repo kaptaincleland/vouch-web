@@ -28,7 +28,9 @@
     background-size: cover;
     background-position: center;
  }
-
+span {
+    color: #FFC800;
+}
 nav {
     background-color: #273c58;
     position: fixed;
@@ -307,7 +309,7 @@ nav ul li a:hover::after {
     padding: 16px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #ffffff  ;
+    color: #ffffff;
     transition: background 0.5s;
 }
 .btn:hover {
@@ -317,13 +319,13 @@ nav ul li a:hover::after {
 
 /*contact*/
 #Contact{
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
 .contact-left {
-    flex-basis: 35%;
+    flex-basis: 33%;
 }
 .contact-right {
-    flex-basis: 60%;
+    flex-basis: 33%;
 }
 .contact-left p {
     margin-top: 30px;
@@ -348,10 +350,6 @@ nav ul li a:hover::after {
     color: #FFC800;
     transform: translateY(-5px);
 }
-.btn.btn2 {
-    display: inline-block;
-    background: #FFC800;
-}
 .contact-right form {
     width: 100%;
 }
@@ -370,8 +368,42 @@ form .btn2 {
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
+    display: inline-block;
+    background: #FFC800;
     cursor: pointer;
 }
+.quick-links {
+    flex-basis: 33%;
+    margin-top: 30px;
+}
+
+.quick-links h2 {
+    color: #FFC800;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+.quick-links a:hover {
+    color: #FFC800;
+}
+
 .copyright {
     width: 100%;
     text-align: center;
@@ -467,7 +499,6 @@ nav .fas {
     padding: 0 20px;
 }
 
-/* Optional: Adjust styles for better readability */
 .about-3-col-2 h2 {
     margin-bottom: 20px;
     text-decoration: underline;
@@ -478,7 +509,17 @@ nav .fas {
     font-size: 18px;
     line-height: 1.5;
 }
+.more-context {
+    margin: 20px;
+}
+.more-context-1 {
+    margin: 30px;
+    text-align: center;
+}
+.more-context-1 h3 {
+    margin-top: 50px;
 
+}
 
 /*scrollbar*/
 ::-webkit-scrollbar {
