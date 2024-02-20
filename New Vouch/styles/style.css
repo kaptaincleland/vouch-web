@@ -28,6 +28,13 @@
     background-size: cover;
     background-position: center;
  }
+ #hww-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(ght.jpg);
+    background-size: cover;
+    background-position: center;
+ }
 span {
     color: #FFC800;
 }
@@ -71,32 +78,7 @@ nav ul li a::after {
 }
 nav ul li a:hover::after {
     width: 100%;
-} 
-/*.header-text {
-    margin-top: 20%;
-    font-size: 30px;
 }
-.header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
-}
-.header-text h1 span {
-    color: #ff004f;
-}
-.btn-2 {
-    display: block;
-    margin: 350px auto;
-    width: fit-content;
-    border: 5px solid #ff004f;
-    padding: 16px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: white;
-    transition: background 0.5s;
-}
-.btn-2:hover {
-    background: #ff004f;    
-}*/
 /* -----------about-1--------------- */
 #about-1 {
     width: 100%;
